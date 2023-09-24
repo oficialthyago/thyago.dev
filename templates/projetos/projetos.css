@@ -11,8 +11,12 @@ gap: 4.375rem;
 }
 
 /*corpo*/
-
-
+.col-01,.col-02{
+   
+    border-radius: 1rem;
+    height: 34rem;
+    
+}
 
 /*fim do corpo*/
 /* FOOTER */
