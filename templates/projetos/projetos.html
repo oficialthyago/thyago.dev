@@ -53,11 +53,13 @@
                 <li><a class="dropdown-item" href="#">Projetos</a></li>
               </ul>
           </ul>
-          
-          <form class="d-flex form-outline ">
-            <input class="form-control me-2" type="Pesquise" placeholder="Pesquise" aria-label="Pesquise">
-            <button class="btn btn-outline-success" type="submit">Pesquise</button>
-          </form>
+
+            <form class="d-flex form-outline ">
+                <input class="form-control me-2" type="text" id="query" placeholder="Pesquise" aria-label="Pesquise">
+                <button class="btn btn-outline-success" onclick="pesquisar()" type="submit">Pesquise</button>
+                <ul id="resultado"></ul>
+                <script src="../../JS/Pesquisa.js"></script>
+            </form>
         </div>
       </div>
     </nav>
