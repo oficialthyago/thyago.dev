@@ -19,6 +19,7 @@ public class ProjetoController{
         projetos.add(new ProjetoModel("Lotericas - LotoMoney"));
         projetos.add(new ProjetoModel("Pokedex"));
         projetos.add(new ProjetoModel("Calculadora"));
+
     }
 
     @GetMapping("/buscar")
