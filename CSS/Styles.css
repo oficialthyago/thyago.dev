@@ -1,51 +1,80 @@
-body{
+body {
     background: #080808;
 
 }
-.navbar{
-background: #1B1B1B;;
-font-family: IBM Plex Mono;
-font-size: 0.100rem;
-line-height: normal;
-gap: 4.375rem;
+
+.navbar {
+    background: #1B1B1B;
+    ;
+    font-family: IBM Plex Mono;
+    font-size: 0.100rem;
+    line-height: normal;
+    gap: 4.375rem;
 }
 
 /* CENTRO */
 
 
-.row h1{
+.pag01 .row h1 {
     color: aliceblue;
     font-family: IBM Plex Mono;
     margin: 50px;
-    text-align:center;
+    text-align: center;
     align-self: stretch;
 }
 
-.row h3{
+.pag01 .row h3 {
     color: #9C9C9C;
     font-family: IBM Plex Mono;
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.5rem; /* 171.429% */
+    line-height: 1.5rem;
+    /* 171.429% */
     letter-spacing: 0.14px;
 }
 
 
-.col .btn {
+.pag01 .col .btn {
     display: flex;
     padding: 1.313rem 4rem;
     align-items: center;
     gap: 0.625rem;
     border-radius: 0.30rem;
-    
+
     border: 1px solid #62BA1B;
     background: #3F8E00;
     box-shadow: 0px 8px 30px 0px rgba(63, 142, 0, 0.50);
 
     color: #FFF;
     font-family: IBM Plex Mono;
-    font-size: 1rem;  
+    font-size: 1rem;
+}
+
+.pag02 {
+    background-color: #F5F5F5;
+}
+
+.pag02 h1 {
+    /*titulo pagina 02 - HOME */
+    color: #080808;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.projeto01 h5 {
+    color: #FFA217;
+    font-family: IBM Plex Mono;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    /* 200% */
+    letter-spacing: 0.008rem;
 }
 
 
@@ -54,11 +83,10 @@ gap: 4.375rem;
 
 
 /* FOOTER */
-.btn-outline-light{
+.btn-outline-light {
     width: 10rem;
     height: 3.75rem;
     flex-shrink: 0;
     border-radius: 1rem;
     border: 1px solid #1B1B1B;
 }
-
