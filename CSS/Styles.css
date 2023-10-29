@@ -53,6 +53,7 @@ body {
 
 .pag02 {
     background-color: #F5F5F5;
+    margin-bottom: 20px;
 }
 
 .pag02 h1 {
@@ -64,6 +65,17 @@ body {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+}
+
+.pag02 h2{
+    color: #9C9C9C;
+text-align: center;
+font-family: IBM Plex Mono;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.14px;
 }
 
 .projeto01 h5 {
@@ -83,6 +95,11 @@ body {
 
 
 /* FOOTER */
+
+.footer {
+    margin-top: auto;
+}
+
 .btn-outline-light {
     width: 10rem;
     height: 3.75rem;
