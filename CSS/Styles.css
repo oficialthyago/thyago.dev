@@ -89,16 +89,21 @@ letter-spacing: 0.14px;
     letter-spacing: 0.008rem;
 }
 
+.pag03 {
+text-align: center;
 
+}
+
+.pag03 {
+color: #FFF;
+}
 
 /* FIM DO  CENTRO */
 
 
 /* FOOTER */
 
-.footer {
-    margin-top: auto;
-}
+
 
 .btn-outline-light {
     width: 10rem;
