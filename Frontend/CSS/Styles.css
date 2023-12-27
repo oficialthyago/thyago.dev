@@ -230,7 +230,18 @@ body{
 }
 
 
+.carousel-item img {
+  
+  width: auto;
+}
 
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: auto;
+    max-height: 70px;
+    width: 100%;
+  }
+}
 
 @media (min-width: 767px) {
   .about .box-pl2 {
@@ -238,3 +249,5 @@ body{
     padding-left: 0rem;
   }
 }
+
+
